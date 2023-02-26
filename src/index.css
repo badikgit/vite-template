@@ -37,8 +37,9 @@ body {
 #root {
     min-height: 100vh;
     text-align: center;
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 @media (prefers-color-scheme: light) {
